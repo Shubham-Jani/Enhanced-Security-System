@@ -19,7 +19,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Profile
-        fields = ['image', 'block_number', 'face_encodings']
+        fields = "__all__"
 
 
 class UserSerializer(serializers.ModelSerializer):
